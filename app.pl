@@ -9,7 +9,7 @@ use WWW::Curl::Easy;
 
 # /r for resource
 # /r/:url
-#   http://placekitten.com/200/300
+#   http://placekitten.com/g/200/300
 #   /r/aHR0cDovL3BsYWNla2l0dGVuLmNvbS9nLzIwMC8zMDA=
 get '/r/:url' => sub {
 	my $c = shift;

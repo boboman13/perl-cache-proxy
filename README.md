@@ -19,7 +19,7 @@ The image we want to proxy to is by the url of `http://placekitten.com/g/200/300
 
 The URLs taken by the proxy are in the format of `/r/[base64 of URL]`. Since the base64 encoded version of that URL is `aHR0cDovL3BsYWNla2l0dGVuLmNvbS9nLzIwMC8zMDA=`, our URL is `/r/aHR0cDovL3BsYWNla2l0dGVuLmNvbS9nLzIwMC8zMDA=`.
 
-On a default installation, we would access this image by going to `localhost:3000/r/aHR0cDovL3BsYWNla2l0dGVuLmNvbS9nLzIwMC8zMDA=`.
+On a default installation, we would access this image by going to `http://localhost:3000/r/aHR0cDovL3BsYWNla2l0dGVuLmNvbS9nLzIwMC8zMDA=`.
 
 ### Configuration
 No configuration at the moment is present, but is planned.
